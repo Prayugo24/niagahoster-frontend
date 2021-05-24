@@ -4,6 +4,10 @@
     - cd niagahoster-frontend
     # Running docker compose
     - docker-compose up -d
+    #install composer
+    - docker exec -it [COMPOSER_ID]] bash
+    - composer install
+
 ```
 
 # Docker Hub
